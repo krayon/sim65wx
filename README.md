@@ -1,8 +1,9 @@
-# sim65
+# sim65wx
 
-a 65c02 simulation system
+A 65c02 simulation system.
 
-this is a GIT mirror of [sim65](http://www.wsxyz.net/sim65/) (version from March 2021).
+This is a GIT mirror of [sim65](http://www.wsxyz.net/sim65/) (version from March 2021).
 
-I've added some fixes to get it working (see commits).
+- @sittner added some fixes to get it working (see commits)
+- @krayon renamed it as to avoid the name collision with [CC65's sim65](https://cc65.github.io/doc/sim65.html) .
 

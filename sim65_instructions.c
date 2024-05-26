@@ -2,17 +2,17 @@
   instructions.c
   Copyright 2000,2001,2003,2020 by William Sheldon Simms
 
-  This file is a part of Sim65 -- a free 6502 simulator / debugger
+  This file is a part of Sim65wx -- a free 6502 simulator / debugger
  
-  Sim65 is free software; you can redistribute it and/or modify it under the terms
+  Sim65wx is free software; you can redistribute it and/or modify it under the terms
   of the GNU General Public License as published by the Free Software Foundation; either
   version 3, or (at your option) any later version.
  
-  Sim65 is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  Sim65wx is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
   without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
   See the GNU General Public License for more details.
  
-  You should have received a copy of the GNU General Public License along with Sim65;
+  You should have received a copy of the GNU General Public License along with Sim65wx;
   see the file COPYING. If not, visit the Free Software Foundation website at http://www.fsf.org
 */
 

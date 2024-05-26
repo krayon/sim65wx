@@ -702,9 +702,9 @@ void SimFrame::OnHelp (wxCommandEvent& WXUNUSED(event))
 
 void SimFrame::OnAbout (wxCommandEvent& WXUNUSED(event))
 {
-  wxMessageBox(wxString::FromAscii("Sim65 (development)\n"
+  wxMessageBox(wxString::FromAscii("Sim65wx (development)\n"
 				   "Copyright 2000-2003 William Sheldon Simms III"),
-               wxString::FromAscii("About Sim65"),
+               wxString::FromAscii("About Sim65wx"),
 	       wxOK | wxICON_INFORMATION);
 }
 

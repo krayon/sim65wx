@@ -24,23 +24,23 @@ CXXOBJ = SimApp.o SimFrame.o RegisterWindow.o StatusWindow.o Label.o StackWindow
 	 Core65c02.o BreakpointWindow.o Breakpoint.o BreakpointManager.o Prefs.o \
 	 AddressPeripheral.o Uart.o Acia6551.o Acia6551Frame.o AppleTextFrame.o
 
-default: sim65
+default: sim65wx
 
 objs: $(COBJ) $(CXXOBJ)
 
-sim65: $(COBJ) $(CXXOBJ)
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(COBJ) $(CXXOBJ) -o sim65 $(LIB)
+sim65wx: $(COBJ) $(CXXOBJ)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(COBJ) $(CXXOBJ) -o $@ $(LIB)
 
 clean:
 	rm -f *.o
-	rm -f sim65
+	rm -f sim65wx
 
 distclean: clean
 	rm -f *~
-	rm -f sim65.depend
+	rm -f sim65wx.depend
 
-sim65.depend:
-	$(CC) -MM -MG $(CSRC) > sim65.depend
-	$(CXX) -MM -MG `wx-config --cppflags` $(CXXSRC) >> sim65.depend
+sim65wx.depend:
+	$(CC) -MM -MG $(CSRC) > sim65wx.depend
+	$(CXX) -MM -MG `wx-config --cppflags` $(CXXSRC) >> sim65wx.depend
 
-include sim65.depend
+include sim65wx.depend
